@@ -18,7 +18,8 @@ import org.springframework.context.annotation.FilterType;
 )
 public class AutoAppConfig {
     // 수동 빈 등록 충돌 예시
-    /*@Bean(name = "memoryMemberRepository")
+    /*
+    @Bean(name = "memoryMemberRepository")
     MemberRepository memberRepository() {
         return new MemoryMemberRepository();
     }
